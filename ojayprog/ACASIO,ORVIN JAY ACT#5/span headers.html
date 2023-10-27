@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+                border: 1px solid black; 
+                border-collapse: collapse;
+                
+        }
+        .del{
+            background-color: green;
+        }
+        .prog{
+            background-color: yellow;
+        }
+        .pend{
+            background-color: red;
+        }
+        th{
+  padding:5px;
+}
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">First Name</th>
+                <th rowspan="2">Last Name</th>             
+                <th colspan="2" style="text-align: center">Order</th>
+                <th rowspan="2">Status</th>     
+            </tr>
+            <tr>
+                <th rowspan="2">number</th> 
+                <th rowspan="2">price </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="del">
+                <td>Ojay</td>
+                <td>Aca</td>               
+                <td>001</td>               
+                <td>10000</td>               
+                <td>Delivered</td>               
+            </tr>
+            <tr class="prog">
+                <td>Kat</td>
+                <td>Lin</td>
+                <td>002</td>
+                <td>550</td>
+                <td>In Progress</td>
+            </tr>               
+            <tr class="pend">             
+                <td>Jan</td>
+                <td>Berhil</td>               
+                <td>003</td>
+                <td>100</td>
+                <td>Pending</td>
+            </tr>
+            <tr class="prog">
+                <td>Gelo</td>
+                <td>Canda</td>
+                <td>004</td>
+                <td>150</td>
+                <td>In Progress</td>
+            </tr>
+            <tr class="prog">
+                <td>Kres</td>
+                <td>Tian</td>
+                <td>005</td>
+                <td>6300</td>
+                <td>In Progress</td>
+            </tr>
+            <tr class="pend">
+                <td>Rhay</td>
+                <td>Alburot</td>
+                <td>006</td>
+                <td>2080</td>
+                <td>Pending</td>
+            </tr>
+            <tr class="del">
+                <td>Khloe</td>
+                <td>Bella</td>
+                <td>007</td>
+                <td>6000000</td>
+                <td>Delivered</td>
+            </tr>
+            <tr class="prog">
+                <td>Crys</td>
+                <td>Talong</td>
+                <td>008</td>
+                <td>2080</td>
+                <td>In progress</td>
+            </tr>
+            <tr class="del">
+                <td>Chaz</td>
+                <td>Mint</td>
+                <td>009</td>
+                <td>3000</td>
+                <td>Delivered</td>
+            </tr>
+            <tr class="pend">
+                <td>Jing</td>
+                <td>Ming</td>
+                <td>010</td>
+                <td>12345</td>
+                <td>Pending</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>

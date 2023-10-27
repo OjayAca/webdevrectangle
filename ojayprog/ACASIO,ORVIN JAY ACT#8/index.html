@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="seginah"></div>
+</body>
+    <script>
+        var mydata = {
+            'name' : ['Orvin Jay','Acasio'],
+            'age' : 19,
+            'nationality' : 'Filipino',
+            'gender' : 'Male',
+            'address' : 'Consolacion',
+            'id_number' : 24215733
+        }
+        const seginah = document.getElementById('seginah')
+        const string_template = `<div>name: ${mydata.name}</div>
+                                 <div>age: ${mydata.age}</div>
+                                 <div>nationality: ${mydata.nationality}</div>
+                                 <div>gender: ${mydata.gender}</div>
+                                 <div>address: ${mydata.address}</div>
+                                 <div>id_number: ${mydata.id_number}</div>`
+
+                                 seginah.innerHTML = string_template
+    </script>
+</html>

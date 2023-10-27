@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shape Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>Shape Calculator</h1>
+<label for="shapeSelect">Select a shape:</label>
+<select id="shapeSelect">
+    <option value="circle">Circle</option>
+    <option value="rectangle">Rectangle</option>
+    <option value="square">Square</option>
+</select>
+
+<div id="circleInputs" style="display: none;">
+    <h2>Circle</h2>
+    <label for="circleRadius">Radius:</label>
+    <input type="number" id="circleRadius">
+    <br>
+    <button onclick="calculateCircle()">Calculate</button>
+    <p>Circumference (Diameter): <span id="circleCircumferenceDiameterResult"></span></p>
+    <p>Circumference (Radius): <span id="circleCircumferenceRadiusResult"></span></p>
+</div>
+
+<div id="rectangleInputs" style="display: none;">
+    <h2>Rectangle</h2>
+    <label for="rectangleLength">Length:</label>
+    <input type="number" id="rectangleLength">
+    <br>
+    <label for="rectangleWidth">Width:</label>
+    <input type="number" id="rectangleWidth">
+    <br>
+    <button onclick="calculateRectangle()">Calculate</button>
+    <p>Area: <span id="rectangleAreaResult"></span></p>
+    <p>Perimeter: <span id="rectanglePerimeterResult"></span></p>
+</div>
+
+<div id="squareInputs" style="display: none;">
+    <h2>Square</h2>
+    <label for="squareSide">Side:</label>
+    <input type="number" id="squareSide">
+    <br>
+    <button onclick="calculateSquare()">Calculate</button>
+    <p>Area: <span id="squareAreaResult"></span></p>
+    <p>Perimeter: <span id="squarePerimeterResult"></span></p>
+</div>
+  
+<script src="tangle.js"></script>
+</body>
+</html>

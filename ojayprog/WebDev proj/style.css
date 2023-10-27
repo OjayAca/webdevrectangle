@@ -1,0 +1,33 @@
+body{
+    background-color: #d8a871;
+}
+
+form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 50px; 
+  } 
+   
+  label { 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+  } 
+   
+  input[type="text"] { 
+    font-size: 18px; 
+    padding: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 20px; 
+  } 
+   
+  button { 
+    font-size: 20px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: #fcfbfa; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    cursor: pointer; 
+  } 
